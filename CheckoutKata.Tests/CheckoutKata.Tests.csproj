@@ -21,4 +21,8 @@
         <Using Include="NUnit.Framework"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\CheckoutKata\CheckoutKata.csproj" />
+    </ItemGroup>
+
 </Project>

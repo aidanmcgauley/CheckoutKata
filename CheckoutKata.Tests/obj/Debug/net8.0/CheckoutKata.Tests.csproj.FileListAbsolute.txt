@@ -98,3 +98,6 @@ C:\Users\Aidan\RiderProjects\CheckoutKata\CheckoutKata.Tests\obj\Debug\net8.0\re
 C:\Users\Aidan\RiderProjects\CheckoutKata\CheckoutKata.Tests\obj\Debug\net8.0\CheckoutKata.Tests.pdb
 C:\Users\Aidan\RiderProjects\CheckoutKata\CheckoutKata.Tests\obj\Debug\net8.0\CheckoutKata.Tests.genruntimeconfig.cache
 C:\Users\Aidan\RiderProjects\CheckoutKata\CheckoutKata.Tests\obj\Debug\net8.0\ref\CheckoutKata.Tests.dll
+C:\Users\Aidan\RiderProjects\CheckoutKata\CheckoutKata.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_CheckoutKata.Tests
+C:\Users\Aidan\RiderProjects\CheckoutKata\CheckoutKata.Tests\bin\Debug\net8.0\CheckoutKata.dll
+C:\Users\Aidan\RiderProjects\CheckoutKata\CheckoutKata.Tests\bin\Debug\net8.0\CheckoutKata.pdb

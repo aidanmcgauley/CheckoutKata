@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CheckoutKata.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f51a53cb0f0c215fb31199d9fc6b2859022ffd35")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8701336505ccecc67feebc75d4b735323000d813")]
 [assembly: System.Reflection.AssemblyProductAttribute("CheckoutKata.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CheckoutKata.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
