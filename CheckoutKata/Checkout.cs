@@ -5,8 +5,8 @@ namespace CheckoutKata;
 
 public class Checkout : ICheckout
 {
-    public PricingRules _pricingRules;
-    public Dictionary<string, int> _itemCounts = new Dictionary<string, int>();
+    private PricingRules _pricingRules;
+    private Dictionary<string, int> _itemCounts = new Dictionary<string, int>();
 
     public Checkout(PricingRules pricingRules)
     {
@@ -20,6 +20,15 @@ public class Checkout : ICheckout
 
     public int GetTotalPrice()
     {
-        throw new NotImplementedException();
+        // totalCost = 0;
+        // totalForCurrentItem = 0;
+        // Loop through itemcounts
+            
+            // Get rule for item
+            // remainder = item % SpecialQuantity
+            // dealCount = itemcount / specialquantity              (google the floor syntax)
+            // total for current item = dealCount * SpecialPrice + remainder * unit cost
+            // totalForCurrentItem = 0
+        // totalCost += totalForCurrentItem
     }
 }
