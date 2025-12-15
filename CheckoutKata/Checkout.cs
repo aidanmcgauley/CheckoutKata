@@ -15,6 +15,12 @@ public class Checkout : ICheckout
     
     public void Scan(string item)
     {
+        var rule = _pricingRules.GetRule(item);
+        if (rule is null)
+        {
+            throw new ArgumentException($"Unknown SKU: {item}");
+        }
+        
         _itemCounts[item] = _itemCounts.GetValueOrDefault(item, 0)+1;
     }
 

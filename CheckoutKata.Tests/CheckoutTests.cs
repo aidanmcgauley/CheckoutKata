@@ -125,4 +125,11 @@ public class CheckoutTests
         _checkout.Scan("A");
         Assert.That(_checkout.GetTotalPrice(), Is.EqualTo(210));
     }
+    
+    [Test]
+    public void Scanning_unknown_item_throws_exception()
+    {
+        var ex = Assert.Throws<ArgumentException>(() => _checkout.Scan("Z"));
+        Assert.That(ex.Message, Is.EqualTo("Unknown SKU: Z"));
+    }
 }
